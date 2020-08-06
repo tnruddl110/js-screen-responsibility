@@ -6,12 +6,12 @@ function handleResized() {
   const BODY = document.querySelector("body");
   const currentWidth = window.innerWidth;
 
-  if (currentWidth > 1000) {
-    BODY.style.backgroundColor = "yellow";
-  } else if (currentWidth <= 1000 && currentWidth > 600) {
-    BODY.style.backgroundColor = "purple";
+  if (currentWidth > 900) {
+    BODY.style.backgroundColor = "#f1c40f";
+  } else if (currentWidth <= 900 && currentWidth > 600) {
+    BODY.style.backgroundColor = "#8e44ad";
   } else if (currentWidth <= 600) {
-    BODY.style.backgroundColor = "blue";
+    BODY.style.backgroundColor = "#3498db";
   }
 }
 
